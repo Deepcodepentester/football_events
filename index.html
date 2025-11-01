@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>firstmenr_frontend</title>
+    <style>
+      *{
+        padding: 0;
+        margin:0;
+        
+      }
+      header{
+        display:flex;
+        justify-content: space-between;
+        background-color: #373a45;
+        color:white;
+        height: 94px;
+        padding: 0 30px;
+      }
+      header a{
+        display:inline-flex;
+        align-items: baseline;
+        color:#04AA6D;;
+        
+      }
+      .header-lft{
+        display:flex;
+      }
+      .main-asvide-wrapper{
+        display: flex;
+      }
+      .lgu{
+        padding:10px;
+      }
+      .hd-s{
+        padding:10px;
+      }
+      .asvide-con{
+        flex-basis: 250px;
+        /* background-color: darkgrey; */
+        background-color:#373a45;
+
+      }
+      .main-con{
+        flex-grow: 1;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+        color:#646cff;
+
+      }
+      article{
+        display: flex;
+        flex-direction: column;
+        background-color: darkgray;
+        border: 1px solid white;
+        padding: 20px;
+      }
+      .artdv{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .match-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-weight: bold;
+      }
+      .odd{
+        /* width:20px;
+        height:20px; */
+        padding: 5px;
+        background-color: green;
+        color:white;
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      .odd-wrapper{
+        display:flex;
+      }
+      .match-tm{
+        display: flex;
+        flex-direction: column;
+      }
+      .match-scr{
+        display: flex;
+        flex-direction: column;
+      }
+      .standing-tm{
+        margin-block-start: 10px;
+        text-align: left;
+      }
+      .each-match-col{
+        display:flex;
+        flex-direction: column;
+      }
+      .each-match-wrapper{
+        display:flex;
+        padding: 10px;
+      }
+      .each-match-col-1{
+        margin-right: 10px;
+      }
+      .each-match-col-2{
+        text-align: left;
+        margin-right: 20px;
+      }
+      input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script defer>
+      /* const dateControl = document.querySelector('input[type="date"]');
+      const dateControl1 = document.getElementById('start');
+      console.log(dateControl1)
+      console.log(document.getElementById('start')) */
+/* dateControl.value = new Date().toISOString().slice(0,10);
+console.log(dateControl.value); // prints "2017-06-01"
+console.log(dateControl.valueAsNumber); // prints 1496275200000, a JavaScript timestamp (ms) */
+      /* let d = new Date()
+      console.log(d)
+      console.log(d.toString().slice(0,15))
+      console.log(d.setDate(10))
+      console.log(d.toISOString())
+      console.log(d.getDate())
+      console.log(new Date().toISOString().slice(0,10))
+      console.log("new Date()")
+      const currentUrl = window.location.href;
+      console.log(currentUrl); // e.g., "https://example.com/path/to/page?param=value#section" */
+    </script>
+  </body>
+</html>
