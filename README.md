@@ -5,4 +5,4 @@ git clone https://github.com/Deepcodepentester/football_events.git.
 npm install.  
 npm run dev.  
 
-## with the above command will be up running
+## with the above command the project  will be up and running
